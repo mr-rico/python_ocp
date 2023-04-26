@@ -9,7 +9,7 @@ if __name__  ==  "__main__":
     cluster1_details = {
         "name":"ricocluster1",
         "ca_cert":"./certificates/cluster1.crt",
-        "api_server_endpoint":"https://api.ricocluster.lab.upshift.rdu2.redhat.com:6443",
+        "api_server_endpoint":"https://api.ricocluster.lab:6443",
         "client":OCPLoginConfiguration(ocp_username=None, ocp_password=None)
     } 
     cluster2_details = {
